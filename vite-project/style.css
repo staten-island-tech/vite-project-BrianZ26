@@ -2,7 +2,9 @@ h1 {
   text-align: center;
   font-size: 50px;
   margin-top: 50px;
+  padding: 50px;
+  background-color: rgb(200, 30, 30);
 }
-.header {
-  background-color: rgb(200, 10, 10);
+body {
+  background-image: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000");
 }
