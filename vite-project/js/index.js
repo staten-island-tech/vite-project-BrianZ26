@@ -1,2 +1,2 @@
-import { food } from "food.js";
-console.log(food);
+import { menu } from "./array";
+console.log(menu);
