@@ -6,13 +6,19 @@ const menu = [
     url: "test",
   },
   {
-    name: "a",
+    name: "b",
     cost: 1,
     meat: true,
     url: "test",
   },
   {
-    name: "a",
+    name: "c",
+    cost: 1,
+    meat: true,
+    url: "test",
+  },
+  {
+    name: "d",
     cost: 1,
     meat: true,
     url: "test",
