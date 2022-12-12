@@ -1,15 +1,15 @@
 const menu = [
   {
-    name: "a",
+    name: "Pizza",
     cost: 1,
-    meat: true,
-    url: "test",
+    meat: false,
+    url: "https://static.toiimg.com/thumb/53110049.cms?width=1200&height=900",
   },
   {
-    name: "b",
-    cost: 1,
+    name: "Fried Chicken",
+    cost: 5,
     meat: true,
-    url: "test",
+    url: "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Crispy-Fried-Chicken_EXPS_TOHJJ22_6445_DR%20_02_03_11b.jpg",
   },
   {
     name: "c",
