@@ -15,5 +15,3 @@ function input() {
 }
 
 input();
-
-console.log(menu);
