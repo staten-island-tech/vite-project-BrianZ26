@@ -24,10 +24,10 @@ const menu = [
     url: "https://redhousespice.com/wp-content/uploads/2022/01/sliced-peking-duck-with-pancakes-scaled.jpg",
   },
   {
-    name: "d",
-    cost: 1,
-    meat: true,
-    url: "test",
+    name: "Bok Choy",
+    cost: 3,
+    meat: false,
+    url: "https://rasamalaysia.com/wp-content/uploads/2009/01/chinese_greens_oyster_sauce.jpg",
   },
   {
     name: "d",
