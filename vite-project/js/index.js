@@ -13,5 +13,9 @@ function input() {
     )
   );
 }
-
+document.querySelector(".btn").addEventListener("click", function () {
+  console.log("a");
+  DOM.display.innerHTML = "";
+  menu.filter();
+});
 input();
