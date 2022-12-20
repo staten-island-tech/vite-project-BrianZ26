@@ -13,6 +13,11 @@ function input() {
     )
   );
 }
+input();
+document.querySelector(".main").addEventListener("click", function () {
+  DOM.display.innerHTML = "";
+  input();
+});
 document.querySelector(".meat").addEventListener("click", function () {
   console.log("a");
   DOM.display.innerHTML = "";
@@ -29,4 +34,19 @@ document.querySelector(".meat").addEventListener("click", function () {
       )
     );
 });
-input();
+document.querySelector(".side").addEventListener("click", function () {
+  console.log("a");
+  DOM.display.innerHTML = "";
+  menu
+    .filter((food) => food.dish === "side")
+    .forEach((menu) =>
+      DOM.display.insertAdjacentHTML(
+        "beforeend",
+        `<div class="input">   
+    <img src="${menu.url}" class="img"></img>
+      <h2>${menu.name}</h2> 
+      <h3>$${menu.cost}</h3>
+      </div>`
+      )
+    );
+});
