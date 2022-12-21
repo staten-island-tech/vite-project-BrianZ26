@@ -41,7 +41,8 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  margin: 50px;
 }
 .btn {
   font-size: var(--h5);
@@ -63,5 +64,5 @@ body {
 }
 .img {
   width: 90%;
-  height: 75%;
+  max-height: 75%;
 }
