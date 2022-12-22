@@ -6,29 +6,31 @@
   --light-red: #d62828;
   --yellow: #fcbf49;
 
-  --primary: var(--light-blue);
-  --secondary: var(--dark-blue);
-
   --h1: 7.594rem;
   --h2: 5.063rem;
   --h3: 3.375rem;
   --h4: 2.25rem;
   --h5: 1.5rem;
 }
-:warm {
+.warm {
   --primary: var(--light-red);
   --secondary: var(--yellow);
+  --text: var(--black);
 }
-:cool {
-  --primary: var(--light-blue);
-  --secondary: var(--dark-blue);
+.cool {
+  --primary: var(--dark-blue);
+  --secondary: var(--light-blue);
+  --text: var(--white);
 }
 body {
+  color: var(--text);
+  background-color: var(--primary);
 }
 .title {
+  background-color: var(--secondary);
   text-align: center;
   font-size: var(--h1);
-  border: 10px solid #000;
+  border: 10px solid var(--text);
   padding: 20px;
 }
 .card {
@@ -45,22 +47,30 @@ body {
   margin: 50px;
 }
 .btn {
+  color: var(--text);
+  background-color: var(--secondary);
   font-size: var(--h5);
   text-align: center;
   padding: 20px;
 }
 .btn:hover {
-  transform: translateY(-2px);
+  transform: translateY(10px);
+  transform: scale(0.9);
 }
 .input {
+  background-color: var(--secondary);
   width: 25%;
-  border: 5px solid #000;
+  border: 5px solid var(--text);
   margin: 10px auto;
   padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+}
+.input:hover {
+  transform: translateY(10px);
+  transform: scale(0.9);
 }
 .img {
   width: 90%;
