@@ -52,6 +52,7 @@ body {
   font-size: var(--h5);
   text-align: center;
   padding: 20px;
+  width: 75px;
 }
 .btn:hover {
   transform: translateY(10px);
